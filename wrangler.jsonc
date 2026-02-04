@@ -29,7 +29,7 @@
 		{
 			"binding": "DB",
 			"database_name": "chat-user-id-db",
-			// "database_id": "c02037dc-20fd-4624-8b7e-885b43285b53",
+			"database_id": "3761143e-0eaa-4669-83a7-c9e2f4df6b95"
 		},
 	],
 	"migrations": [
@@ -42,7 +42,13 @@
 	],
 	"observability": {
 		"enabled": true
-	}
+	},
+	"kv_namespaces": [
+		{
+			"binding": "CACHE_CHAT",
+			"id": "893da295759f48829a59836df4189912"
+		}
+	]
 	/**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
